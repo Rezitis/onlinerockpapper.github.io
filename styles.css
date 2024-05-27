@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-button:hover {
+    background-color: #2980b9;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#player, #opponent, #result, #scoreboard {
+    margin: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
